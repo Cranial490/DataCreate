@@ -141,9 +141,6 @@ for i in range(ClosingP.shape[0]):
     WMA = np.append(WMA,CalcWavg(Input))
     K = np.append(K,CalcK(Input))
     R = np.append(R,Input)
-    #TP = CalcTP(Input)
-    #TPsma = CalcTPsma(Input)
-    #Dt = CalcDt(Input)
 Rsi = CalcRSI(ClosingP)
 """Reshaping the returned arrays"""
 Input = np.reshape(Input,(Input.shape[0],1))
