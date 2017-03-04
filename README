@@ -1,0 +1,2 @@
+------------------------------------STOCK MARKET PREDICTION----------------------------------------
+dataCreate.py contains the code for generating dataset for stock prices prediction generates data based on technical parameters on which the stck market depends.
